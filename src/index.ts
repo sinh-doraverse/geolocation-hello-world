@@ -20,6 +20,7 @@ export default {
 		html_content += "<p> Region: " + request.cf.region + "</p>";
 		html_content += "<p> RegionCode: " + request.cf.regionCode + "</p>";
 		html_content += "<p> Timezone: " + request.cf.timezone + "</p>";
+		html_content += "<p> RAW: " + JSON.stringify(request.cf) + "</p>";
 
 		let html = `<!DOCTYPE html>
       <head>
