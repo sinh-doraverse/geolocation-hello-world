@@ -1,9 +1,9 @@
 export default {
 	async fetch(request): Promise<Response> {
-		const country = request.cf?.country;
-		if (country === "VN") {
-	      		return Response.redirect("https://cashbag.vn", 302);
-	    	}
+		// const country = request.cf?.country;
+		// if (country === "VN") {
+	 //      		return Response.redirect("https://cashbag.vn", 302);
+	 //    	}
 
 		let html_content = "";
 		let html_style =
